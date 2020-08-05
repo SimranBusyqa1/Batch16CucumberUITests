@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="99.689">
+<testcase classname="Check login page feature for OrangeHRM" name="Logo presence on OrangeHRM home page" time="17.392">
+<system-out><![CDATA[Given I launch Chrome browser...............................................passed
+When I open OrangeHRM home page.............................................passed
+Then I verify that the logo is present on the page..........................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check login page feature for OrangeHRM" name="Login to OrangeHRM with valid credentials" time="18.895">
+<system-out><![CDATA[Given I launch Chrome browser...............................................passed
+When I open OrangeHRM home page.............................................passed
+And Enter username and password.............................................passed
+And Click on login button...................................................passed
+Then User must successfully login to the Dashboard page.....................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check login page feature for OrangeHRM" name="Login to OrangeHRM with valid credentials 2" time="20.286">
+<system-out><![CDATA[Given I launch Chrome browser...............................................passed
+When I open OrangeHRM home page.............................................passed
+And Enter username "Admin" and password "admin123"..........................passed
+And Click on login button...................................................passed
+Then User must successfully login to the Dashboard page.....................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check login page feature for OrangeHRM" name="Login to OrangeHRM with valid credentials 3" time="23.483">
+<system-out><![CDATA[Given I launch Chrome browser...............................................passed
+When I open OrangeHRM home page.............................................passed
+And Enter username "Admin" and password "admin123"..........................passed
+And Click on login button...................................................passed
+Then User must successfully login to the Dashboard page.....................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check login page feature for OrangeHRM" name="Login to OrangeHRM with valid credentials 4" time="18.809">
+<system-out><![CDATA[Given I launch Chrome browser...............................................passed
+When I open OrangeHRM home page.............................................passed
+And Enter username "Admin" and password "admin123"..........................passed
+And Click on login button...................................................passed
+Then User must successfully login to the Dashboard page.....................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
